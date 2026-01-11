@@ -36,7 +36,7 @@ if query:
     
     if not results.empty:
         # Displaying results with the Status column clearly visible
-        st.dataframe(results, use_container_width=True)
+        st.dataframe(results, use_container_width=True, hide_index=True)
     else:
         st.write("No matches found.")
 
