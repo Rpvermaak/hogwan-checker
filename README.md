@@ -1,5 +1,5 @@
-# hogwan-checker
-Check the status of hogwans in South Korea for ESL teachers
+# hagwon-checker
+Check the status of hagwons in South Korea for ESL teachers
 
 ## Legal Disclaimer & Data Attribution
 
