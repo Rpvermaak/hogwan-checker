@@ -1,6 +1,14 @@
 import streamlit as st
 import pandas as pd
 
+# Configure the page to hide the top-right menu (rerun/settings buttons)
+st.set_page_config(
+    page_title="Korea Hagwon Search",
+    page_icon="🔍",
+    layout="wide",
+    menu_items=None  # This hides the top-right menu to prevent accidental clicks
+)
+
 @st.cache_data
 def load_combined_data():
     try:
